@@ -55,7 +55,7 @@ export default function ImageUpload({ onUploadComplete }: ImageUploadProps) {
         .from('images')
         .insert({
           user_id: user.id,
-          url: filePath, // On stocke le chemin du fichier plutôt que l'URL
+          url: filePath,
         })
 
       if (dbError) {
@@ -63,7 +63,7 @@ export default function ImageUpload({ onUploadComplete }: ImageUploadProps) {
         throw dbError
       }
 
-      // Réinitialiser le formulaire et notifier le parent
+
       if (fileInputRef.current) {
         fileInputRef.current.value = ''
       }

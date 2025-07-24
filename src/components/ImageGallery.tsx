@@ -84,7 +84,7 @@ export default function ImageGallery({ refreshTrigger }: ImageGalleryProps) {
     setDeleting(imageId)
 
     try {
-      // Le chemin du fichier est directement stocké dans imageUrl maintenant
+ 
       const filePath = imageUrl
 
       // Supprimer le fichier du storage
