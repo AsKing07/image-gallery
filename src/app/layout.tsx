@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Galerie d'Images Personnelle | Stockez et Organisez vos Photos",
   description: "Application moderne de galerie d'images avec authentification sécurisée. Stockez, organisez et partagez vos images préférées dans votre espace personnel.",
   keywords: ["galerie", "images", "photos", "upload", "stockage", "personnel"],
-  authors: [{ name: "Votre Nom" }],
+  authors: [{ name: "Charbel SONON" }],
   openGraph: {
     title: "Galerie d'Images Personnelle",
     description: "Stockez et organisez vos images dans votre espace personnel sécurisé",
